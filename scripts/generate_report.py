@@ -117,9 +117,8 @@ def create_report():
     )
     
     # Save document
-    report_path = 'Early_Disease_Risk_Prediction_Report.docx'
-    doc.save(report_path)
-    print(f"Report generated: {report_path}")
+    doc.save('reports/Early_Disease_Risk_Prediction_Report.docx')
+    print("Report generated: reports/Early_Disease_Risk_Prediction_Report.docx")
 
 if __name__ == "__main__":
     create_report()
