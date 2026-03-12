@@ -1,0 +1,23 @@
+Model Performance Summary (All Models)
+======================================
+                 Model  Accuracy  Precision    Recall        F1       AUC
+0  Logistic Regression  0.990991   0.989831  0.996587  0.993197  0.993920
+1        Random Forest  0.997748   0.996599  1.000000  0.998296  1.000000
+2        Decision Tree  0.986486   0.979933  1.000000  0.989865  0.980132
+3                  SVM  0.997748   0.996599  1.000000  0.998296  0.999254
+
+Confusion Matrix (Logistic Regression):
+[[148   3]
+ [  1 292]]
+
+Confusion Matrix (Random Forest):
+[[150   1]
+ [  0 293]]
+
+Confusion Matrix (Decision Tree):
+[[145   6]
+ [  0 293]]
+
+Confusion Matrix (SVM):
+[[150   1]
+ [  0 293]]

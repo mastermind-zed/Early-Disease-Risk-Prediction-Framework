@@ -1,0 +1,25 @@
+# Python binaries
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and Models (Keep structure, ignore bulky files if needed)
+# models/*.pkl
+# data/*.csv
+
+# Results (Visualizations are usually kept in README, but temporary ones can be ignored)
+# *.png
+# results/plots/*.png
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
