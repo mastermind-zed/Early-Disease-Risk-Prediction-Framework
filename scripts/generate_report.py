@@ -98,8 +98,18 @@ def create_report():
         "clinical features are more impactful than the sheer volume of general demographic data."
     )
 
-    # Section 6: Conclusion
-    doc.add_heading('6. Conclusion', level=1)
+    # Section 6: Future Work - Framework Scalability
+    doc.add_heading('6. Future Work: Framework Scalability', level=1)
+    doc.add_paragraph(
+        "While this study focuses on Diabetes Mellitus, the developed machine learning pipeline is architected as a "
+        "disease-agnostic framework. The modular design of the data preprocessing and model evaluation scripts allows "
+        "for seamless adaptation to other chronic conditions (e.g., cardiovascular disease, chronic kidney disease) "
+        "provided that binary classification clinical data is available. This scalability makes the framework a "
+        "valuable asset for broader early disease risk screening initiatives."
+    )
+
+    # Section 7: Conclusion
+    doc.add_heading('7. Conclusion', level=1)
     doc.add_paragraph(
         "The Random Forest and SVM models demonstrated superior performance, both achieving near-perfect metrics. "
         "The high AUC values indicate that the underlying clinical features are extremely robust predictors. "

@@ -57,6 +57,13 @@ The framework follows a five-step process:
 4. **Evaluation**: Metrics based on a 70/15/15 train-val-test split.
 5. **Insights**: Discussion on data quality vs. volume in medical predictions.
 
+## 🔄 Extending to Other Diseases
+This framework is designed to be **disease-agnostic**. To predict a different disease (e.g., Heart Disease, Kidney Disease):
+1.  **Prepare Data**: Ensure you have a `.csv` file with a binary `Outcome` column (0 or 1).
+2.  **Add to Data Folder**: Place the new file in `data/`.
+3.  **Update Script**: On line 105 of `scripts/train_models.py`, change the filepath to your new dataset.
+4.  **Run Pipeline**: Execute the script to automatically generate new models, ROC curves, and performance metrics for the target disease.
+
 ## 📄 License
 TBD - Check with project owner.
 
